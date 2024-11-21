@@ -1,0 +1,38 @@
+.hidden {
+    display: none;
+}
+.toggle-buttons {
+    margin-bottom: 10px;
+}
+.toggle-buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+.toggle-buttons button.active {
+    background-color: #ddd;
+}
+
+/* --------------------------------- */
+
+
+h1{
+    color: brown;
+}
+
+body{
+    text-align: center;
+}
+
+#displayImage{
+    padding-top: 10px;
+}
+#Canva{
+    padding-top: 10px;
+}
+
+img{
+    max-width: 500px;
+}

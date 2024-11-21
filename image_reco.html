@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="image_reco.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Handwritten Digit Recognition</h1>
+
+    <div class="toggle-buttons">
+        <button id="drawButton" class="active">Draw</button>
+        <button id="fileButton">Send File Instead</button>
+    </div>
+
+<div id="dynamicContainer">
+
+<div id="drawingSection">
+    <canvas id="drawingCanvas" width="300" height="300" style="border: 1px solid black;"></canvas>
+    <br>
+    <button id="clearCanvas">Clear</button>
+    <button id="submitCanvas">Submit for Prediction</button>
+</div>
+
+<div id="fileUploadSection" class="hidden">
+    <input type="file" id="ChosenFile" accept=".png,.jpg">
+    <div id="displayImage"></div>
+</div>
+
+</div>
+
+    
+    <p id="predictionResult">Prediction: </p>
+</body>
+<script src="image_reco.js"></script>
+</html>
