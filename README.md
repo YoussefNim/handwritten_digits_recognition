@@ -27,6 +27,6 @@ The input image undergoes several preprocessing steps to match the format expect
 4. Open the webpage in your browser and start drawing a digit or upload an image for prediction.
 
 ## **Screenshot**  
-![alt text](example_webpage.png)
+![alt text](handwritten digits recognition.gif)
 
 
