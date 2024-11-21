@@ -27,6 +27,9 @@ The input image undergoes several preprocessing steps to match the format expect
 4. Open the webpage in your browser and start drawing a digit or upload an image for prediction.
 
 ## **Screenshot**  
-![alt text](handwritten_digits_recognition.gif)
+<div align="center">
+  <img src="handwritten_digits_recognition.gif" alt="keras model recognizing handwritten digits" />
+</div>
+
 
 
